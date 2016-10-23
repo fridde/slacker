@@ -1,0 +1,5 @@
+# Add this to your applications toml-file
+[slacker]
+webhook_url = "https://hooks.slack.com/services/AB12CD34/EF56GH78/hashme67example81612314"
+username = "Example bot"
+channel = "#serverstatus"
