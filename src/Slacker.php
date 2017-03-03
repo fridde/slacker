@@ -2,7 +2,9 @@
 
 namespace Fridde;
 
-class Slacker extends \Maknz\Slack\Client
+use Maknz\Slack\Client;
+
+class Slacker extends Client
 {
-    
+
 }
