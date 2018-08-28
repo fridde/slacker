@@ -20,4 +20,11 @@ class Slacker extends Client
 
         parent::__construct($this->webhook_url, $this->settings);
     }
+
+    public function sendToAdmin(string $text)
+    {
+        /** @noinspection PhpUndefinedMethodInspection */
+        $this->send($text);
+
+    }
 }
